@@ -12,6 +12,7 @@ public class Main {
 
         BufferedImage img = ImageOperations.readFromFile("src\\Image\\adam.jpg");
         int[][]dizi =ImageOperations.ımageToInt(img);
+        ImageOperations.ImageTranslation(dizi);
         ResimSahne rs = new ResimSahne(img);
    /*    Color myWhite = new Color(0, 0, 0); // Color white
         int rgb = myWhite.getRGB();

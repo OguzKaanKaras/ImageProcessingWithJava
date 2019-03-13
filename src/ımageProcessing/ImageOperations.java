@@ -27,11 +27,12 @@ public class ImageOperations {
         }
         return image;
     }
-    public static  int[][] ımageToInt(BufferedImage img){
-        int[][] dizi=new int[img.getWidth()+50][img.getHeight()+50];
-        for(int i=0;i<img.getWidth();i++){
-            for (int j=0;j<img.getHeight();j++){
-                dizi[i][j]=img.getRGB(i,j);
+
+    public static int[][] ımageToInt(BufferedImage img) {
+        int[][] dizi = new int[img.getWidth()][img.getHeight()];
+        for (int i = 0; i < img.getWidth(); i++) {
+            for (int j = 0; j < img.getHeight(); j++) {
+                dizi[i][j] = img.getRGB(i, j);
 
          /*       int a = (dizi[i][j]>>24) & 0xff;
 
@@ -63,20 +64,52 @@ public class ImageOperations {
         return dizi;
 
     }
-    public static void yazdir(int[][] dizi){
-        for(int i=0;i<dizi.length;i++){
-            for (int j=0;j<dizi[0].length;j++){
+
+    public static void yazdir(int[][] dizi) {
+        for (int i = 0; i < dizi.length; i++) {
+            for (int j = 0; j < dizi[0].length; j++) {
                 System.out.println(dizi[i][j]);
             }
         }
     }
- /*   public static void dosya(double[][] dizi){
-        //double[][] dizi1=new double[dizi.length][dizi[0].length];
-        BufferedImage img = null;
-        for(int i=0;i<dizi.length;i++){
-            for (int j=0;j<dizi[0].length;j++){
-               img.setRGB(i,j,dizi[i][j]);
+
+    public static void negativeOfImage(int[][] dizi) {
+        for (int i = 0; i < dizi.length; i++) {
+            for (int j = 0; j < dizi[0].length; j++) {
+                int a = (dizi[i][j] >> 24) & 0xff;
+
+                //get red
+                int r = (dizi[i][j] >> 16) & 0xff;
+                r = 255 - r;
+                if (r < 0)
+                    r = 0;
+                //get green
+                int g = (dizi[i][j] >> 8) & 0xff;
+                g = 255 - g;
+                if (g < 0)
+                    g = 0;
+                //get blue
+                int b = dizi[i][j] & 0xff;
+                b = 255 - b;
+                if (b < 0)
+                    b = 0;
+                int p = (a << 24) | (r << 16) | (g << 8) | b;
+
+                image.setRGB(i, j, p);
+
             }
         }
-    }*/
+    }
+
+    public static void ImageTranslation(int[][] dizi) {
+        int[][] newDizi = new int[dizi.length + 50][dizi[0].length + 50];
+        for (int i = 0; i < dizi.length; i++) {
+            for (int j = 0; j < dizi[0].length; j++) {
+                newDizi[i + 50][j + 50] = dizi[i][j];
+                image.setRGB(i, j, newDizi[i][j]);
+            }
+        }
+    }
+
+
 }
