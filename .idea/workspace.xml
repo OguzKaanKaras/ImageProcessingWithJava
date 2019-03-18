@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b5c007-4638-479f-85df-0b59bb55855b" name="Default Changelist" comment="">
+    <list default="true" id="63b5c007-4638-479f-85df-0b59bb55855b" name="Default Changelist" comment="added other methods and finished">
+      <change afterPath="$PROJECT_DIR$/src/ımageProcessing/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/Image/Adsız.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/Image/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ResimSahne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ResimSahne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/görüntüNegatifi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ımagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ımagePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Image/Adsız.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Image/adam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Image/profile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ımageProcessing/ImageOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ımageProcessing/ImageOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ımageProcessing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ımageProcessing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ımageProcessing/görüntüNegatifi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ımageProcessing/Sahne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ımageProcessing/ımagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ımageProcessing/ımagePanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ımageProcessing/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,13 +39,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ımageProcessing/ImageOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="111">
+              <caret line="218" column="40" lean-forward="true" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ımageProcessing/ımagePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
@@ -55,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ımageProcessing/Sahne.java">
+        <entry file="file://$PROJECT_DIR$/src/ımageProcessing/Scene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +93,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>double</find>
+      <find>yaki</find>
+      <find>ımageto</find>
+      <find>esikl</find>
+      <find>dizi</find>
+      <find>zoo</find>
+      <find>zoom</find>
     </findStrings>
+    <replaceStrings>
+      <replace>newArr</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,17 +111,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Sahne.java" />
+        <option value="$PROJECT_DIR$/src/ımageProcessing/görüntüNegatifi.java" />
         <option value="$PROJECT_DIR$/src/ımageProcessing/ımagePanel.java" />
         <option value="$PROJECT_DIR$/src/ımageProcessing/Sahne.java" />
-        <option value="$PROJECT_DIR$/src/ımageProcessing/görüntüNegatifi.java" />
-        <option value="$PROJECT_DIR$/src/ımageProcessing/Main.java" />
         <option value="$PROJECT_DIR$/src/ımageProcessing/ImageOperations.java" />
+        <option value="$PROJECT_DIR$/src/ımageProcessing/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="y" value="26" />
+    <option name="x" value="945" />
+    <option name="y" value="25" />
     <option name="width" value="980" />
     <option name="height" value="1010" />
   </component>
@@ -109,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -137,25 +160,34 @@
               <item name="ImageProcessingWithJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImageProcessingWithJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageProcessingWithJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageProcessingWithJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ımageProcessing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552495686818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552943470879" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oğuz Kaan KARAS\Desktop\Idea\ImageProcessingWithJava\src\Image" />
       <recent name="C:\Users\Oğuz Kaan KARAS\Desktop\Idea\ımageProcessing\src\Image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oğuz Kaan KARAS\Desktop\Idea\ImageProcessingWithJava\src\Image" />
       <recent name="C:\Users\Oğuz Kaan KARAS\Desktop\Idea\ımageProcessing\src\Image" />
       <recent name="C:\Users\Oğuz Kaan KARAS\Desktop\Idea\ımageProcessing\src" />
       <recent name="C:\Users\Oğuz Kaan KARAS\Desktop\Idea\ımageProcessing\src\ımageProcessing" />
@@ -201,18 +233,32 @@
       <option name="presentableId" value="Default" />
       <updated>1552402727206</updated>
       <workItem from="1552402731237" duration="22178000" />
-      <workItem from="1552496574432" duration="3083000" />
+      <workItem from="1552496574432" duration="27027000" />
+      <workItem from="1552559223515" duration="1156000" />
+      <workItem from="1552676627037" duration="7400000" />
+      <workItem from="1552698920199" duration="5472000" />
+      <workItem from="1552832155981" duration="26832000" />
+      <workItem from="1552904663231" duration="645000" />
+      <workItem from="1552938665881" duration="5015000" />
     </task>
+    <task id="LOCAL-00001" summary="added methods of image translation and image negative">
+      <created>1552499801169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552499801169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25261000" />
+    <option name="totallyTimeSpent" value="95725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13355705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -222,7 +268,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27053824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -247,6 +293,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added methods of image translation and image negative" />
+    <MESSAGE value="added other methods and finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="added other methods and finished" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -258,10 +309,42 @@
     <entry file="file://$PROJECT_DIR$/src/Image/profile.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ımageProcessing/görüntüNegatifi.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="1015" selection-start-line="1015" selection-end-line="1015" />
+          <folding>
+            <element signature="e#41021#41022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myimage.jpg" />
+    <entry file="file://$PROJECT_DIR$/myimage.png" />
+    <entry file="file://$PROJECT_DIR$/src/Image/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/sun/awt/image/ByteInterleavedRaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="312" selection-start-line="312" selection-end-line="312" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Image/grey.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Image/foto.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Image/Adsız.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ımageProcessing/ımagePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
@@ -270,34 +353,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ımageProcessing/Sahne.java">
+    <entry file="file://$PROJECT_DIR$/src/ımageProcessing/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ımageProcessing/görüntüNegatifi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/sun/awt/image/ByteInterleavedRaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="540" selection-start-line="540" selection-end-line="540" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ımageProcessing/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -306,8 +365,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ımageProcessing/ImageOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="111">
+          <caret line="218" column="40" lean-forward="true" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ımageProcessing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
