@@ -3,15 +3,15 @@ package ımageProcessing;
 import javax.swing.*;
 import java.awt.image.BufferedImage;
 
-class ResimSahne extends JFrame {
+class ImageScene extends JFrame {
     ımagePanel pnl;
 
-    public ResimSahne(String path) {
+    public ImageScene(String path) {
         pnl = new ımagePanel(path);
         Int();
     }
 
-    public ResimSahne(BufferedImage image) {
+    public ImageScene(BufferedImage image) {
         pnl = new ımagePanel(image);
         Int();
     }

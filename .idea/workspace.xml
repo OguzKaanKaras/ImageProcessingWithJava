@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b5c007-4638-479f-85df-0b59bb55855b" name="Default Changelist" comment="added other methods and finished">
-      <change afterPath="$PROJECT_DIR$/src/ımageProcessing/Scene.java" afterDir="false" />
+    <list default="true" id="63b5c007-4638-479f-85df-0b59bb55855b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/Image/Adsız.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/Image/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ResimSahne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ResimSahne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/görüntüNegatifi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ımagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ımageProcessing/ımageProcessing/ımagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Image/Adsız.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Image/adam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Image/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ımageProcessing/ImageOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ımageProcessing/ImageOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ımageProcessing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ımageProcessing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ımageProcessing/Sahne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ımageProcessing/ımagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ımageProcessing/ımagePanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552943743304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552944110706" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -239,7 +225,7 @@
       <workItem from="1552698920199" duration="5472000" />
       <workItem from="1552832155981" duration="26832000" />
       <workItem from="1552904663231" duration="645000" />
-      <workItem from="1552938665881" duration="5015000" />
+      <workItem from="1552938665881" duration="5297000" />
     </task>
     <task id="LOCAL-00001" summary="added methods of image translation and image negative">
       <created>1552499801169</created>
@@ -248,11 +234,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552499801169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added other methods and finished">
+      <created>1552943700336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552943700336</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added other methods and finished">
+      <created>1552943754711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552943754711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95725000" />
+    <option name="totallyTimeSpent" value="96007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

@@ -41,7 +41,7 @@ public class Main {
         /*********************************************/
 
 
-        ResimSahne rs = new ResimSahne(img);
+        ImageScene rs = new ImageScene(img);
     }
 }
 
