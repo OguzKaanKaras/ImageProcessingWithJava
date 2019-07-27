@@ -169,29 +169,7 @@ public class ImageOperations {
 
     }
 
-    public static void zoomPhoto(int[][] arr, BufferedImage photo) throws IOException {
-
-        int[][] newArr;
-        newArr = ımageToInt(photo);
-        int n = 0;
-        int m = 0;
-        for (int i = 0; i < newArr.length; i++) {
-            m = 0;
-            for (int j = 0; j < newArr[0].length; j++) {
-                arr[n][m] = newArr[i][j];
-                arr[n][m + 1] = newArr[i][j];
-                arr[n + 1][m + 1] = newArr[i][j];
-                arr[n + 1][m] = newArr[i][j];
-                m = m + 2;
-            }
-            n = n + 2;
-        }
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr[0].length - 1; j++) {
-                image.setRGB(j, i, arr[i][j]);
-            }
-        }
-    }
+    
 
     public static void stretchingPhoto(int[][] arr) {
         int a, r, g, b, i, j, p, ort, x;
